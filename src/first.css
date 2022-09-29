@@ -52,7 +52,7 @@
   flex-direction: column;
 }
 .sectionrighttop {
-  width: 250px;
+  width: 350px;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -68,7 +68,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   transition: all 0.5s;
 }
 .klaar:hover {
@@ -117,10 +117,13 @@
   justify-content: flex-end;
 }
 @media only screen and (max-width: 1200px) {
+  .sectionrighttop {
+    width: 400px;
+  }
   #main {
     flex-direction: column;
     width: 450px;
-    height: 1500px;
+    height: auto;
     margin-top: 100px;
   }
   .sectionmid {
@@ -138,7 +141,7 @@
     margin-top: 30px;
   }
   .sectionright {
-    margin-top: 600px;
+    margin-top: 550px;
   }
   #tweedecolom {
     border-top: 2px #fd8628 solid;
@@ -148,6 +151,9 @@
   }
   .Bcr__container {
     margin-top: 195px !important;
+  }
+  .Bcb__container{
+    margin: 45px 0px 0px 30px !important;
   }
 }
 
@@ -289,25 +295,30 @@
 .Bcb__lesstop {
   margin: 8px 0px 8px 0px;
 }
-.Bcb__greenbtn{
-    background: green;
-    color: white;
-    border-radius: 4px;
-    border: black solid 1px;
-    height: 25px;
-    width: 40%;
-    font-weight: 400;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s;
+.Bcb__greenbtn {
+  background: green;
+  color: white;
+  border-radius: 4px;
+  border: black solid 1px;
+  height: 25px;
+  width: 40%;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
 }
 .Bcb__greenbtn:hover {
   background: darkgreen;
   cursor: pointer;
   box-shadow: rgba(255, 255, 255, 1) 0px 2px 29px 0px;
+}
+
+.Bcb__infoicon {
+  width: 6px;
+  margin: -10px 10px 1000px 0px;
 }
 /* .orangetext */
 /* .BC__locicon */
