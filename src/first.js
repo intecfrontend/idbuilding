@@ -26,14 +26,16 @@ function first() {
           <span className="orangetext darker">erpe-mere.ondernemersnetwerk.be</span>
         </div>
         <div className='sectionmid'></div>
-        <div className='sectionleft' id="tweedecolom">
-          <BcIDB />
-          <Bc_right/>
+        <div className='sectionleftwrapper'>
+          <div className='sectionleft' id="tweedecolom">
+            <BcIDB />
+            <Bc_right />
+          </div>
+          <Bc_bottom/>
         </div>
 
 
       </div>
-      <Bc_bottom/>
 
       <div className='sectionright'>
         <div className="sectionrighttop">

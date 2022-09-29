@@ -260,7 +260,55 @@
 .Bcr__wrapperMiddle {
   margin: -8px 0px 20px 0px;
 }
+
 /* Bcb */
+#tweedecolom {
+  height: 280px;
+}
 .Bcb__container {
   color: black;
+  font-size: 8px;
+  line-height: 14px;
+  margin: 0px 0px 0px 10px;
+  width: 300px;
+  text-align: left;
 }
+#Bcb__cornerID {
+  margin: 0px 010px 0px 10px;
+}
+.Bcb__cornerwrapper {
+  margin: -10px 010px 0px 10px;
+  width: 30px;
+}
+.Bcb__wrapper {
+  display: flex;
+}
+.Bcb__leftmargin {
+  margin: 0px 0px 0px 3px;
+}
+.Bcb__lesstop {
+  margin: 8px 0px 8px 0px;
+}
+.Bcb__greenbtn{
+    background: green;
+    color: white;
+    border-radius: 4px;
+    border: black solid 1px;
+    height: 25px;
+    width: 40%;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.Bcb__greenbtn:hover {
+  background: darkgreen;
+  cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 1) 0px 2px 29px 0px;
+}
+/* .orangetext */
+/* .BC__locicon */
+/* darker */
