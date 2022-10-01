@@ -1,6 +1,6 @@
 import React from 'react'
-import "./first.css"
-import cornericon from "./assets/cornericon.svg"
+import "../../first.css"
+import cornericon from "../../assets/cornericon.svg"
 
 
 

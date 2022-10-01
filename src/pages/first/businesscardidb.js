@@ -1,12 +1,12 @@
 import React from 'react'
-import robotidb from "./assets/robotidb.svg"
-import logoidb from "./assets/logoidb.svg"
-import locicon from "./assets/locicon.svg"
-import telicon from "./assets/phoneicon.svg"
-import faxicon from "./assets/faxicon.svg"
-import worldicon from "./assets/worldicon.svg"
-import cornericon from "./assets/cornericon.svg"
-import "./first.css"
+import robotidb from "../../assets/robotidb.svg"
+import logoidb from "../../assets/logoidb.svg"
+import locicon from "../../assets/locicon.svg"
+import telicon from "../../assets/phoneicon.svg"
+import faxicon from "../../assets/faxicon.svg"
+import worldicon from "../../assets/worldicon.svg"
+import cornericon from "../../assets/cornericon.svg"
+import "../../first.css"
 
 
 function businesscardidb() {

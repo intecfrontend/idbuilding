@@ -1,7 +1,7 @@
 import React from 'react'
-import "./first.css"
-import cornericon from "./assets/cornericon.svg"
-import info from "./assets/info_icon.svg"
+import "../../first.css"
+import cornericon from "../../assets/cornericon.svg"
+import info from "../../assets/info_icon.svg"
 
 
 function bcb() {

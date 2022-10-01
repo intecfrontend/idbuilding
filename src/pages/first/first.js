@@ -1,6 +1,6 @@
 import React from 'react'
-import "./first.css"
-import eyes from "./assets/eyes.svg"
+import "../../first.css"
+import eyes from "../../assets/eyes.svg"
 import BcIDB from "./businesscardidb"
 import Bc_right from "./bcr"
 import Bc_bottom from "./bcb"

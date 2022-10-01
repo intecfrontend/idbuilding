@@ -152,7 +152,7 @@
   .Bcr__container {
     margin-top: 195px !important;
   }
-  .Bcb__container{
+  .Bcb__container {
     margin: 45px 0px 0px 30px !important;
   }
 }
@@ -323,3 +323,88 @@
 /* .orangetext */
 /* .BC__locicon */
 /* darker */
+
+/* third */
+#third__main {
+  margin-top: 100px;
+  width: 1100px;
+  height: 500px;
+  padding: 0px;
+  margin-top: 100px;
+  border: red 1px solid;
+}
+
+.navbar {
+  font-family: 'ShadowsIntoLight';
+  padding: 0vw 3vw;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 22px;
+  background-image: linear-gradient(-135deg, #fdcf6d, #fd8628);
+  font-weight: 700;
+}
+
+.Trd__topText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: -20px 25px 25px 25px;
+}
+.Trd__bottomTextContainer {
+  display: flex;
+  width: 975px;
+  margin: 35px 0px 0px 55px;
+}
+.Trd__bottomTextWrapper {
+  margin: 0px 15px 0px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 550px;
+  background: #ffb175;
+
+  color: black;
+  font-size: 12px;
+  text-align: left;
+}
+.Trd__bottomTextWrapper > div > div {
+  font-size: 8px;
+}
+
+.Trd__title {
+  color: orange;
+  font-size: 22px;
+  font-family: 'Heebo';
+  margin-top: 20px;
+}
+.Trd__subtitle {
+  color: orange;
+  font-size: 18px;
+  font-family: 'Heebo';
+}
+
+.Trd__titleNr {
+  font-family: 'ShadowsIntoLight';
+  font-size: 42px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.Trd__body {
+  color: black;
+  width: 1000px;
+  text-align: left;
+  margin: -5px 0px 0px 45px;
+  font-size: 22px;
+  font-family: 'Heebo';
+  font-size: 12px;
+}
+.Trd__linewrapper {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  border-top: 2px solid rgba(220, 220, 220, 0.4);
+}
+/* .sectionmid */
