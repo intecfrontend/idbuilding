@@ -1,6 +1,9 @@
 import React from 'react'
 import "../../first.css"
-import eyes from "../../assets/eyes.svg"
+import ShufflebtnYES from "./ShufflebtnYES.js"
+import ShufflebtnNO from "./ShufflebtnNO.js"
+import info from "../../assets/info_iconK.svg"
+
 
 function third() {
 
@@ -39,14 +42,26 @@ function third() {
             <div className="Trd__subtitle">
               MIJN ONDERNEMING IS ACTIEF?
             </div>
-            <div>
-            <div className="Trd__checkwrapper">
-                <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
-                <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
-                <div className="Trd__smallText">
-                  Laatst aanvaard op: Wed Aug 17 2022 09:55
-                </div>
+
+
+            <div className="Trd__btnContainer">
+              <div className="Trd__btnWrapper">
+                <ShufflebtnYES />
+                <img className="Trd__infoicon" id="Trd__cornerID" src={info} alt="infoicon" />
+                <span className="Trd__verder">
+                  Nu kunnen we verder !
+                </span>
               </div>
+              <div className="Trd__btnWrapper">
+                <ShufflebtnNO />
+                <img className="Trd__infoicon" id="Trd__cornerID" src={info} alt="infoicon" />
+                <span className="Trd__verder">
+                  Je onderneming wordt gedesactiveerd :)
+                </span>
+              </div>
+            </div>
+
+            <div>
               <div className="Trd__checkwrapper">
                 <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
                 <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
@@ -54,7 +69,56 @@ function third() {
                   Laatst aanvaard op: Wed Aug 17 2022 09:55
                 </div>
               </div>
-                            <div className="Trd__checkwrapper">
+
+              <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="voorwaarden" />
+                <span className="Trd__aboveSmallText"> Ik aanvaard de <span className="darker">algemene voorwaarden</span> </span>
+                <div className="Trd__smallText">
+                  Laatst aanvaard op: Wed Aug 17 2022 10:04
+                </div>
+              </div>
+              <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="delengemeente" />
+                <span className="Trd__aboveNoSmallText"> Ik aanvaard dat mijn gegevens - in combinatie met 100procentlokaal - gedeeld worden met mijn stad of gemeente</span>
+
+              </div>
+
+            </div>
+            <div className="Trd__LastAboveSmallText"> Vind je de ondersteuning van dit initiatief door jouw stad of gemeente een goed idee?</div>
+            <select id="Trd__kiezen">
+              <option >Gelieve een optie te kiezen</option>
+              <option value="optie1">optie1</option>
+              <option value="optie2">optie2</option>
+              <option value="optie3">optie3</option>
+              <option value="optie4">optie4</option>
+            </select>
+          </div>
+          <div className="Trd__sectionmid"></div>
+          <div className="Trd__bottomTextWrapper ">
+            <div className="Trd__subtitle">
+              WEDSTRIJD! <span className="Trd__SideSubtitle">Jij doet toch ook mee ?</span>
+            </div>
+
+
+            <div className="Trd__btnContainer">
+              <div className="Trd__btnWrapper">
+                <ShufflebtnYES />
+                <img className="Trd__infoicon" id="Trd__cornerID" src={info} alt="infoicon" />
+                <span className="Trd__verder">
+                  Fantastisch !
+                </span>
+              </div>
+              <div className="Trd__btnWrapper">
+                <ShufflebtnNO />
+                <img className="Trd__infoicon" id="Trd__cornerID" src={info} alt="infoicon" />
+                <span className="Trd__verder">
+                  Je weet niet wat je mist :)
+                </span>
+              </div>
+            </div>
+
+            <div>
+              <div className="Trd__checkwrapper">
                 <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
                 <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
                 <div className="Trd__smallText">
@@ -62,18 +126,29 @@ function third() {
                 </div>
               </div>
 
+              <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="voorwaarden" />
+                <span className="Trd__aboveSmallText"> Ik aanvaard de <span className="darker">algemene voorwaarden</span> </span>
+                <div className="Trd__smallText">
+                  Laatst aanvaard op: Wed Aug 17 2022 10:04
+                </div>
+              </div>
+              <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="delengemeente" />
+                <span className="Trd__aboveNoSmallText"> Ik aanvaard dat mijn gegevens - in combinatie met 100procentlokaal - gedeeld worden met mijn stad of gemeente</span>
+
+              </div>
+
             </div>
-            <br />
-            Ik aanvaard de algemene voorwaarden
-            <div className="Trd__smallText">
-              Laatst aanvaard op: Wed Aug 17 2022 10:04
-            </div>
-            <br />
-            Ik aanvaard dat mijn gegevens - in combinatie met 100procentlokaal - gedeeld worden met mijn stad of gemeente
-          </div>
-          <div className="Trd__sectionmid"></div>
-          <div className="Trd__bottomTextWrapper">hallo</div>
-        </div>
+            <div className="Trd__LastAboveSmallText"> Vind je de ondersteuning van dit initiatief door jouw stad of gemeente een goed idee?</div>
+            <select id="Trd__kiezen">
+              <option >Gelieve een optie te kiezen</option>
+              <option value="optie1">optie1</option>
+              <option value="optie2">optie2</option>
+              <option value="optie3">optie3</option>
+              <option value="optie4">optie4</option>
+            </select>
+          </div>        </div>
       </div>
 
 
