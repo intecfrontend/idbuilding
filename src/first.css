@@ -364,8 +364,6 @@
   flex-direction: column;
   align-items: flex-start;
   width: 550px;
-  background: #ffb175;
-
   color: black;
   font-size: 12px;
   text-align: left;
@@ -402,9 +400,38 @@
   font-family: 'Heebo';
   font-size: 12px;
 }
+
 .Trd__linewrapper {
   margin: 0px 0px 0px 0px;
   width: 100%;
   border-top: 2px solid rgba(220, 220, 220, 0.4);
 }
-/* .sectionmid */
+.Trd__sectionmid {
+  background: #fd8628;
+  width: 2px;
+  height: 30px;
+}
+.Trd__checkwrapper {
+  display: grid;
+  grid-template-columns: 20px auto;
+  margin:2px 0px 10px -2px;
+}
+.Trd__inputLabel {
+  grid-column: 1 /1;
+  grid-row: 1 /2;
+  margin-bottom: 3px;
+}
+.Trd__smallText {
+  font-size: 8px;
+  grid-column: 2 /3;
+  grid-row: 2 /3;
+}
+.Trd__aboveSmallText {
+  font-size: 12px;
+  grid-column: 2 /3;
+  grid-row: 1 /2;
+  padding-top: 2px;
+}
+.Trd__check {
+  width: 10px;
+}

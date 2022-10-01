@@ -39,18 +39,39 @@ function third() {
             <div className="Trd__subtitle">
               MIJN ONDERNEMING IS ACTIEF?
             </div>
-            Ik aanvaard de verwerking van mijn gegevens volgens de GDPR
             <div>
-              Laatst aanvaard op: Wed Aug 17 2022 09:55</div>
+            <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
+                <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
+                <div className="Trd__smallText">
+                  Laatst aanvaard op: Wed Aug 17 2022 09:55
+                </div>
+              </div>
+              <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
+                <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
+                <div className="Trd__smallText">
+                  Laatst aanvaard op: Wed Aug 17 2022 09:55
+                </div>
+              </div>
+                            <div className="Trd__checkwrapper">
+                <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
+                <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
+                <div className="Trd__smallText">
+                  Laatst aanvaard op: Wed Aug 17 2022 09:55
+                </div>
+              </div>
+
+            </div>
             <br />
             Ik aanvaard de algemene voorwaarden
-            <div>
+            <div className="Trd__smallText">
               Laatst aanvaard op: Wed Aug 17 2022 10:04
             </div>
             <br />
             Ik aanvaard dat mijn gegevens - in combinatie met 100procentlokaal - gedeeld worden met mijn stad of gemeente
           </div>
-          <div className="sectionmid"></div>
+          <div className="Trd__sectionmid"></div>
           <div className="Trd__bottomTextWrapper">hallo</div>
         </div>
       </div>
