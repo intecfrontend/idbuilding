@@ -2,6 +2,7 @@ import './App.css';
 import First from "./pages/first/first"
 import Third from "./pages/third/third"
 import Fourth from "./pages/fourth/fourth"
+import Fifth from "./pages/fifth/fifth"
 
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -12,9 +13,10 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-      <First />
-      <Third />
-      <Fourth />
+        <First />
+        <Third />
+        <Fourth />
+        <Fifth />
 
       </header>
     </div>

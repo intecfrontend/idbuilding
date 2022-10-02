@@ -722,7 +722,7 @@
   }
   .Frt__body {
     width: 350px;
-    margin-top:30px;
+    margin-top: 30px;
   }
   .Frt__topText {
     width: 90%;
@@ -780,4 +780,36 @@
     color: black;
     margin-left: 0px;
   }
+}
+/* FIFTH */
+
+.Fft__body {
+  color: black;
+  font-size: 12px;
+  width: 560px;
+  text-align: left;
+  margin: 15px 0px 0px px;
+}
+.Fft__formContainer {
+  display: grid;
+  grid-template-columns: 380px;
+  grid-template-rows: 30px 30px 30px 15px 30px 30px 30px 40px;
+  margin: -10px 30px 20px 70px;
+  gap: 15px;
+  width: 420px;
+  background: lime;
+}
+
+#Fft__maatNaam {
+  grid-column: 1 /2;
+  grid-row: 1 /2;
+}
+#Fft__commNaam {
+  grid-column: 1 /2;
+  grid-row: 2 /3;
+}
+
+#Fft__Mail {
+  grid-column: 1 /2;
+  grid-row: 3 /4;
 }

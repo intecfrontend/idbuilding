@@ -8,7 +8,7 @@ import Tel from "../../assets/telicon.svg"
 import Mail from "../../assets/mailicon.svg"
 import robotArmsOpen from "../../assets/robotArmsopen.svg"
 
-function third() {
+function fourth() {
 
 
   return (
@@ -91,4 +91,4 @@ function third() {
     </div>
   )
 }
-export default third
+export default fourth

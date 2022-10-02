@@ -12,7 +12,7 @@ function third() {
   return (
     <div className='Trd__maincontainer'>
       <div className="erpeContainer">
-        <img className="Trd__erpelogo" src={Erpelogo} alt="infoicon" />
+        <img className="Trd__erpelogo" src={Erpelogo} alt="Erpelogo" />
 
       </div>
 
