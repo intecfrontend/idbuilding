@@ -17,7 +17,7 @@ function third() {
       </div>
 
 
-      <div id="Trd__main">
+      <div className="Trd__main">
         <div className="navbar">
           <span id="active">01</span>
           <span>02</span>
