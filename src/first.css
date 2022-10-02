@@ -119,6 +119,7 @@
 @media only screen and (max-width: 1200px) {
   .sectionrighttop {
     width: 400px;
+    height: 1025px;
   }
   #main {
     flex-direction: column;
@@ -371,7 +372,6 @@
   color: black;
   font-size: 12px;
   text-align: left;
-  /* background: beige */
 }
 .Trd__bottomTextWrapper > div > div {
   font-size: 8px;
@@ -424,7 +424,6 @@
   width: 2px;
   padding: 1px;
   height: 330px;
-  z-index: 999;
 }
 .Trd__checkwrapper {
   display: grid;
@@ -524,4 +523,54 @@
 .Trd__LastAboveSmallText {
   margin-top: 20px;
   width: 440px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #Trd__main {
+    flex-direction: column;
+    width: 450px;
+    height: 1025px;
+    margin-top: 100px;
+  }
+  .Trd__sectionmid {
+    height: 1px;
+    width: 420px;
+    margin: 15px 0px 25px 0px;
+  }
+  .Trd__body {
+    width: 380px;
+  }
+
+  .Trd__bottomTextContainer {
+    width: 475px;
+    margin: 35px 0px 0px 15px;
+  }
+
+  .Trd__bottomTextWrapper {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 425px;
+    height: 365px;
+  }
+  .Trd__btnContainer {
+    width: 430px;
+  }
+  .Trd__verderMedia {
+    margin-left: -20px;
+  }
+  #Trd__kiezen {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 420px;
+    padding: 2px 2px 2px 15px;
+  }
+  .Trd__bottomTextContainer {
+    flex-direction: column;
+    width: 420px;
+  }
+  .Trd__orangebtn {
+    width: 95%;
+  }
 }

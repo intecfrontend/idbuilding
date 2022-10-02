@@ -55,7 +55,7 @@ function third() {
               </div>
               <div className="Trd__btnWrapper">
                 <ShufflebtnNO />
-                <img className="Trd__infoicon" id="Trd__cornerID" src={info} alt="infoicon" />
+                <img className="Trd__infoicon  Trd__verderMedia" src={info} alt="infoicon" />
                 <span className="Trd__verder">
                   Je onderneming wordt gedesactiveerd :)
                 </span>
@@ -94,7 +94,9 @@ function third() {
               <option value="optie4">optie4</option>
             </select>
           </div>
+          
           <div className="Trd__sectionmid"></div>
+
           <div className="Trd__bottomTextWrapper ">
             <div className="Trd__subtitle">
               WEDSTRIJD! <span className="Trd__SideSubtitle">Jij doet toch ook mee ?</span>
