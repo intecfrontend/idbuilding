@@ -6,6 +6,7 @@ import Valies from "../../assets/Valiesicon.svg"
 import Gsm from "../../assets/gsmicon.svg"
 import Tel from "../../assets/telicon.svg"
 import Mail from "../../assets/mailicon.svg"
+import Fax from "../../assets/faxicon.svg"
 import info from "../../assets/info_iconK.svg"
 
 function fifth() {
@@ -70,24 +71,50 @@ function fifth() {
           </div>
 
           <div className="Fft__body">
-            <img className="Trd__infoicon" src={info} alt="info" />
-            De publicatie van 1 telefoonnummer is een <span className="darker">   vereiste </span> van FOD Economie
+            <img className="Fft__infoicon" src={info} alt="info" />
+            <span className="Fft__smalltext">
+              De publicatie van 1 telefoonnummer is een <span className="darker">   vereiste </span> van FOD Economie
+            </span>
           </div>
-
           <div id="Fft__Mobileicon" className="Frt__inputWrapper">
-            <img src={Valies} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Maatschappelijke Naam (kan niet gewijzigd worden)" className="Frt__inputter" />
-          </div>
-
-          <div id="Fft__Phoneicon" className="Frt__inputWrapper">
-            <img src={Valies} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Maatschappelijke Naam (kan niet gewijzigd worden)" className="Frt__inputter" />
+            <img src={Gsm} alt="icon" className="Frth__icon" />
+            <input type="text" placeholder="Mobiele telefoon" className="Frt__inputter" />
           </div>
           <div id="Fft__Phoneicon" className="Frt__inputWrapper">
-            <img src={Valies} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Maatschappelijke Naam (kan niet gewijzigd worden)" className="Frt__inputter" />
+            <img src={Tel} alt="icon" className="Frth__icon" />
+            <input type="text" placeholder="Telefoon" className="Frt__inputter" />
+          </div>
+          <div id="Fft__Faxicon" className="Frt__inputWrapper">
+            <img src={Fax} alt="icon" className="Frth__icon" />
+            <input type="text" placeholder="Fax" className="Frt__inputter" />
+          </div>
+          <div id="Fft__textHandelje">
+            <div className="Fft__body">
+              Handel je met bedrijven of consumenten?
+            </div>
+            <div id="Fft__selectHandelje">
+
+
+              <select className="Fft__kiezen">
+                <option >Gelieve een optie te kiezen</option>
+                <option value="optie1">optie1</option>
+                <option value="optie2">optie2</option>
+                <option value="optie3">optie3</option>
+                <option value="optie4">optie4</option>
+              </select>
+            </div>
+          </div>
+          <div className="Fft__body">
+            Wat bied je aan?
           </div>
 
+          <select className="Fft__kiezen">
+            <option >Gelieve een optie te kiezen</option>
+            <option value="optie1">optie1</option>
+            <option value="optie2">optie2</option>
+            <option value="optie3">optie3</option>
+            <option value="optie4">optie4</option>
+          </select>
 
 
         </div>

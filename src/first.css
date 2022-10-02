@@ -792,12 +792,12 @@
 }
 .Fft__formContainer {
   display: grid;
-  grid-template-columns: 380px;
-  grid-template-rows: 30px 30px 30px 15px 30px 30px 30px 40px;
+  grid-template-columns: 370px;
+  grid-template-rows: 30px 30px 30px 10px 30px 30px 30px 30px 30px 5px 30px 30px 30px 30px 30px 30px;
   margin: -10px 30px 20px 70px;
-  gap: 15px;
+  gap: 10px;
   width: 420px;
-  background: lime;
+  /* background: lime; */
 }
 
 #Fft__maatNaam {
@@ -812,4 +812,39 @@
 #Fft__Mail {
   grid-column: 1 /2;
   grid-row: 3 /4;
+}
+
+#Fft__Mobileicon {
+  grid-column: 1 /2;
+  grid-row: 7 /8;
+}
+
+#Fft__Phoneicon {
+  grid-column: 1 /2;
+  grid-row: 8 /9;
+}
+
+#Fft__Faxicon {
+  grid-column: 1 /2;
+  grid-row: 9 /10;
+}
+
+#Fft__textHandelje {
+  grid-column: 1 /2;
+  grid-row: 10 /11;
+}
+#Fft__selectHandelje {
+  grid-column: 1 /2;
+  grid-row: 11 /12;
+}
+.Fft__infoicon {
+  width: 6px;
+  margin: 0px 5px 0px 0px;
+}
+.Fft__smalltext {
+  font-size: 8px;
+}
+.Fft__kiezen {
+  border: black solid 1px;
+  border-radius: 3px;
 }
