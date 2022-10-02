@@ -1,6 +1,7 @@
 import './App.css';
 import First from "./pages/first/first"
 import Third from "./pages/third/third"
+import Fourth from "./pages/fourth/fourth"
 
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -13,6 +14,7 @@ function App() {
 
       <First />
       <Third />
+      <Fourth />
 
       </header>
     </div>
