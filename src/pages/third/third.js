@@ -3,6 +3,7 @@ import "../../first.css"
 import ShufflebtnYES from "./ShufflebtnYES.js"
 import ShufflebtnNO from "./ShufflebtnNO.js"
 import info from "../../assets/info_iconK.svg"
+import OrangeBtn from "./Orangebtn"
 
 
 function third() {
@@ -10,9 +11,9 @@ function third() {
 
   return (
     <>
-      <div id="third__main">
+      <div id="Trd__main">
         <div className="navbar">
-          <span>01</span>
+          <span id="active">01</span>
           <span>02</span>
           <span>03</span>
           <span>04</span>
@@ -118,37 +119,26 @@ function third() {
             </div>
 
             <div>
-              <div className="Trd__checkwrapper">
-                <input type="checkbox" className="Trd__check" name="akkoord" value="GDPR" />
-                <span className="Trd__aboveSmallText"> Ik aanvaard de verwerking van mijn gegevens volgens de GDPR</span>
-                <div className="Trd__smallText">
-                  Laatst aanvaard op: Wed Aug 17 2022 09:55
-                </div>
-              </div>
+              <div className="Trd__aboveSmallText">
+                Voor de <span className="orangetext">Business Pagina in 100%Lokaal </span>betaalt de ondernemer € 100/jaar.
+                <br />
+                Dit is het éénmalig voordeel wanneer je alle gegevens voor jouw onderneming aanvult!
+                <br />
+                <br />
 
-              <div className="Trd__checkwrapper">
-                <input type="checkbox" className="Trd__check" name="akkoord" value="voorwaarden" />
-                <span className="Trd__aboveSmallText"> Ik aanvaard de <span className="darker">algemene voorwaarden</span> </span>
-                <div className="Trd__smallText">
-                  Laatst aanvaard op: Wed Aug 17 2022 10:04
-                </div>
-              </div>
-              <div className="Trd__checkwrapper">
-                <input type="checkbox" className="Trd__check" name="akkoord" value="delengemeente" />
-                <span className="Trd__aboveNoSmallText"> Ik aanvaard dat mijn gegevens - in combinatie met 100procentlokaal - gedeeld worden met mijn stad of gemeente</span>
+                Bovendien doet iedere ondernemer die deelneemt ook automatisch mee voor de grote wedstrijd. Elke 100ste ondernemer wint een jaarabonnement voor een compleet dienstenpakket ter waarde van € 1600.
+                <br />
+                <br />
 
+                <strong> OPGELET! </strong>Het aanleveren van het logo (.ai, .eps, .svg, .pdf-vector) maakt deel uit van het wedstrijdreglement voor deelname.
               </div>
-
             </div>
-            <div className="Trd__LastAboveSmallText"> Vind je de ondersteuning van dit initiatief door jouw stad of gemeente een goed idee?</div>
-            <select id="Trd__kiezen">
-              <option >Gelieve een optie te kiezen</option>
-              <option value="optie1">optie1</option>
-              <option value="optie2">optie2</option>
-              <option value="optie3">optie3</option>
-              <option value="optie4">optie4</option>
-            </select>
-          </div>        </div>
+            <strong className="Trd__LastAboveSmallText darker"> Lees of haal hier het wedstrijdregelement op.</strong>
+            <div className="Trd__orangebtn">
+              <OrangeBtn text={"Volgende"} />
+            </div>
+          </div>
+        </div>
       </div>
 
 
