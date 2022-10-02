@@ -4,13 +4,19 @@ import ShufflebtnYES from "./ShufflebtnYES.js"
 import ShufflebtnNO from "./ShufflebtnNO.js"
 import info from "../../assets/info_iconK.svg"
 import OrangeBtn from "./Orangebtn"
-
+import Erpelogo from "../../assets/ErpeMere.svg"
 
 function third() {
 
 
   return (
-    <>
+    <div className='Trd__maincontainer'>
+      <div className="erpeContainer">
+        <img className="Trd__erpelogo" src={Erpelogo} alt="infoicon" />
+
+      </div>
+
+
       <div id="Trd__main">
         <div className="navbar">
           <span id="active">01</span>
@@ -94,7 +100,7 @@ function third() {
               <option value="optie4">optie4</option>
             </select>
           </div>
-          
+
           <div className="Trd__sectionmid"></div>
 
           <div className="Trd__bottomTextWrapper ">
@@ -144,7 +150,7 @@ function third() {
       </div>
 
 
-    </>
+    </div>
   )
 }
 export default third

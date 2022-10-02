@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Combo&family=Heebo:wght@100;200;300;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+#Frst__maincontainer {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background: rgba(245, 245, 220, 0.3);
+  padding: 100px 0px 50px 0px;
+}
 #main {
   width: 1100px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -7,6 +17,7 @@
   flex-direction: row;
   align-items: center;
   border: rgba(10, 10, 11, 0.1) 1px solid;
+  background: white
 }
 
 .sectionwrapper {
@@ -324,19 +335,36 @@
 /* .orangetext */
 /* .BC__locicon */
 /* darker */
+/* Trd__maincontainer */
 
 /* third */
+.Trd__maincontainer {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(245, 245, 220, 0.3);
+}
 #Trd__main {
   margin-top: 100px;
+  background: white;
   width: 1100px;
   height: auto;
   padding-bottom: 40px;
-  margin: 100px 0px 0px 0px;
+  margin: 100px 200px 100px 50px;
   padding: 00px 0px 30px 0px;
   border: rgba(10, 10, 11, 0.1) 1px solid;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.erpeContainer {
+  background: white;
+}
+.Trd__erpelogo {
+  width: 20vw;
 
+  border-bottom: orange 1px solid;
+}
 .navbar {
   font-family: 'ShadowsIntoLight';
   padding: 0vw 3vw;
@@ -476,7 +504,7 @@
   width: 500px;
 }
 .Trd__orangebtn {
-  width: 105%;
+  width: 95%;
   display: flex;
   justify-content: flex-end;
 }
