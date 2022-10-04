@@ -7,12 +7,13 @@ import Gsm from "../../assets/gsmicon.svg"
 import Tel from "../../assets/telicon.svg"
 import Mail from "../../assets/mailicon.svg"
 import robotArmsOpen from "../../assets/robotArmsopen.svg"
+import { Link } from 'react-scroll'
 
 function fourth() {
 
 
   return (
-    <div className='Trd__maincontainer'>
+    <div className='Trd__maincontainer' id="number2">
       <div className="erpeContainer">
         <img className="Trd__erpelogo" src={Erpelogo} alt="infoicon" />
 
@@ -21,18 +22,18 @@ function fourth() {
 
       <div className="Trd__main">
         <div className="navbar">
-          <span>01</span>
-          <span id="active">02</span>
-          <span>03</span>
-          <span>04</span>
-          <span>05</span>
-          <span>06</span>
-          <span>07</span>
-          <span>08</span>
-          <span>09</span>
-          <span>10</span>
-          <span>11</span>
-          <span>12</span>
+          <span><Link to="number1" spy={true} smooth={true} offset={-0} duration={500} >01</Link></span>
+          <span><Link id="active" to="number2" spy={true} smooth={true} offset={-0} duration={500} >02</Link></span>
+          <span><Link to="number3" spy={true} smooth={true} offset={-0} duration={500} >03</Link></span>
+          <span><Link to="number4" spy={true} smooth={true} offset={-0} duration={500} >04</Link></span>
+          <span><Link to="number5" spy={true} smooth={true} offset={-0} duration={500} >05</Link></span>
+          <span><Link to="number6" spy={true} smooth={true} offset={-0} duration={500} >06</Link></span>
+          <span><Link to="number7" spy={true} smooth={true} offset={-0} duration={500} >07</Link></span>
+          <span><Link to="number8" spy={true} smooth={true} offset={-0} duration={500} >08</Link></span>
+          <span><Link to="number9" spy={true} smooth={true} offset={-0} duration={500} >09</Link></span>
+          <span><Link to="numbe10" spy={true} smooth={true} offset={-0} duration={500} >10</Link></span>
+          <span><Link to="numbe11" spy={true} smooth={true} offset={-0} duration={500} >11</Link></span>
+          <span><Link to="numbe12" spy={true} smooth={true} offset={-0} duration={500} >12</Link></span>
         </div>
         <div className="Frt__topText">
           <div className="Frt__titlewrapper">

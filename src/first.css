@@ -374,6 +374,11 @@
   background-image: linear-gradient(-135deg, #fdcf6d, #fd8628);
   font-weight: 700;
   border-bottom: grey 1px solid;
+  transition: all 2s;
+}
+.navbar :hover {
+  cursor: pointer;
+  font-weight: 900;
 }
 #active {
   color: black;
@@ -816,26 +821,26 @@
 
 #Fft__Mobileicon {
   grid-column: 1 /2;
-  grid-row: 7 /8;
+  grid-row: 5 /6;
 }
 
 #Fft__Phoneicon {
   grid-column: 1 /2;
-  grid-row: 8 /9;
+  grid-row: 6 /7;
 }
 
 #Fft__Faxicon {
   grid-column: 1 /2;
-  grid-row: 9 /10;
+  grid-row: 7 /8;
 }
 
-#Fft__textHandelje {
+#Fft__textHandel {
+  grid-column: 1 /2;
+  grid-row: 8 /9;
+}
+#Fft__selectHandel {
   grid-column: 1 /2;
   grid-row: 10 /11;
-}
-#Fft__selectHandelje {
-  grid-column: 1 /2;
-  grid-row: 11 /12;
 }
 .Fft__infoicon {
   width: 6px;

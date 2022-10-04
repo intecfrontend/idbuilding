@@ -5,32 +5,31 @@ import ShufflebtnNO from "./ShufflebtnNO.js"
 import info from "../../assets/info_iconK.svg"
 import OrangeBtn from "./Orangebtn"
 import Erpelogo from "../../assets/ErpeMere.svg"
+import { Link } from 'react-scroll'
 
 function third() {
 
 
   return (
-    <div className='Trd__maincontainer'>
+    <div className='Trd__maincontainer' id="number1">
       <div className="erpeContainer">
         <img className="Trd__erpelogo" src={Erpelogo} alt="Erpelogo" />
-
       </div>
-
 
       <div className="Trd__main">
         <div className="navbar">
-          <span id="active">01</span>
-          <span>02</span>
-          <span>03</span>
-          <span>04</span>
-          <span>05</span>
-          <span>06</span>
-          <span>07</span>
-          <span>08</span>
-          <span>09</span>
-          <span>10</span>
-          <span>11</span>
-          <span>12</span>
+          <span><Link id="active" to="number1" spy={true} smooth={true} offset={-0} duration={500} >01</Link></span>
+          <span><Link to="number2" spy={true} smooth={true} offset={-0} duration={500} >02</Link></span>
+          <span><Link to="number3" spy={true} smooth={true} offset={-0} duration={500} >03</Link></span>
+          <span><Link to="number4" spy={true} smooth={true} offset={-0} duration={500} >04</Link></span>
+          <span><Link to="number5" spy={true} smooth={true} offset={-0} duration={500} >05</Link></span>
+          <span><Link to="number6" spy={true} smooth={true} offset={-0} duration={500} >06</Link></span>
+          <span><Link to="number7" spy={true} smooth={true} offset={-0} duration={500} >07</Link></span>
+          <span><Link to="number8" spy={true} smooth={true} offset={-0} duration={500} >08</Link></span>
+          <span><Link to="number9" spy={true} smooth={true} offset={-0} duration={500} >09</Link></span>
+          <span><Link to="numbe10" spy={true} smooth={true} offset={-0} duration={500} >10</Link></span>
+          <span><Link to="numbe11" spy={true} smooth={true} offset={-0} duration={500} >11</Link></span>
+          <span><Link to="numbe12" spy={true} smooth={true} offset={-0} duration={500} >12</Link></span>
         </div>
         <div className="Trd__topText">
           <div className="Trd__title">
