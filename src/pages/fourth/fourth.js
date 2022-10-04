@@ -82,8 +82,8 @@ function fourth() {
         </div>
         <div className="Frt__orangebtnWrapper">
           <div className="Frt__orangebtn">
-            <OrangeBtn text={"Vorige"} />
-            <OrangeBtn text={"Volgende"} />
+          <Link to="number1" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Vorige"} /></Link>
+          <Link to="number3" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Volgende"} /></Link>
           </div>
         </div>
       </div>

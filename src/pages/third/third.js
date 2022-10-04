@@ -142,8 +142,7 @@ function third() {
             </div>
             <strong className="Trd__LastAboveSmallText darker"> Lees of haal hier het wedstrijdregelement op.</strong>
             <div className="Trd__orangebtn">
-              <OrangeBtn text={"Volgende"} />
-            </div>
+              <Link to="number2" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Volgende"} /></Link>            </div>
           </div>
         </div>
       </div>
