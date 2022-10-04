@@ -71,7 +71,7 @@ function fifth() {
             <input type="email" placeholder="Email (wordt dus nooit zichtbaar)" className="Frt__inputter" />
           </div>
 
-          <div className="Fft__body">
+          <div id="Fft__body1" className="Fft__body">
             <img className="Fft__infoicon" src={info} alt="info" />
             <span className="Fft__smalltext">
               De publicatie van 1 telefoonnummer is een <span className="darker">   vereiste </span> van FOD Economie
@@ -103,11 +103,11 @@ function fifth() {
               </select>
             </div>
           </div>
-          <div className="Fft__body">
+          <div id="Fft__body2" className="Fft__body">
             Wat bied je aan?
           </div>
 
-          <select className="Fft__kiezen">
+          <select id="Fft__kiezen2" className="Fft__kiezen">
             <option >Gelieve een optie te kiezen</option>
             <option value="optie1">optie1</option>
             <option value="optie2">optie2</option>
@@ -115,15 +115,15 @@ function fifth() {
             <option value="optie4">optie4</option>
           </select>
 
+          <div Id="Fft__btnplaatser" className="Frt__orangebtnWrapper">
+            <div className="Frt__orangebtn">
+              <Link to="number2" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Vorige"} /></Link>
+              <Link to="number4" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Volgende"} /></Link>
+            </div>
+          </div>
 
         </div>
-        <div className="Frt__orangebtnWrapper">
-          <div className="Frt__orangebtn">
-          <Link to="number2" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Vorige"} /></Link>
-          <Link to="number4" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Volgende"} /></Link>
-            
-          </div>
-        </div>
+
       </div>
 
 
