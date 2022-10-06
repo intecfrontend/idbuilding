@@ -57,40 +57,42 @@ function fifth() {
           </div>
         </div>
         <div className="Fft__formContainer">
-
-          <div id="Fft__MaatNaam" className="Frt__inputWrapper">
-            <img src={Valies} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Maatschappelijke Naam (kan niet gewijzigd worden)" className="Frt__inputter" />
+          <div id="Fft__MaatNaam">
+            <div className="Frt__inputWrapper Fft__inputWrapper">
+              <img src={Valies} alt="icon" className="Fft__icon" />
+              <input type="text" placeholder="Maatschappelijke Naam (kan niet gewijzigd worden)" className="Frt__inputter" />
+            </div>
+            <div className="Frt__inputWrapper Fft__inputWrapper">
+              <img src={Valies} alt="icon" className="Fft__icon" />
+              <input type="text" placeholder="Commerciële naam" className="Frt__inputter" />
+            </div>
+            <div className="Frt__inputWrapper Fft__inputWrapper">
+              <img src={Mail} alt="icon" className="Fft__icon" />
+              <input type="email" placeholder="Email (wordt dus nooit zichtbaar)" className="Frt__inputter" />
+            </div>
           </div>
-          <div id="Fft__commNaam" className="Frt__inputWrapper">
-            <img src={Valies} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Commerciële naam" className="Frt__inputter" />
-          </div>
-          <div id="Fft__Mail" className="Frt__inputWrapper">
-            <img src={Mail} alt="icon" className="Frth__icon" />
-            <input type="email" placeholder="Email (wordt dus nooit zichtbaar)" className="Frt__inputter" />
-          </div>
-
-          <div id="Fft__body1" className="Fft__body">
-            <img className="Fft__infoicon" src={info} alt="info" />
-            <span className="Fft__smalltext">
-              De publicatie van 1 telefoonnummer is een <span className="darker">   vereiste </span> van FOD Economie
-            </span>
-          </div>
-          <div id="Fft__Mobileicon" className="Frt__inputWrapper">
-            <img src={Gsm} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Mobiele telefoon" className="Frt__inputter" />
-          </div>
-          <div id="Fft__Phoneicon" className="Frt__inputWrapper">
-            <img src={Tel} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Telefoon" className="Frt__inputter" />
-          </div>
-          <div id="Fft__Faxicon" className="Frt__inputWrapper">
-            <img src={Fax} alt="icon" className="Frth__icon" />
-            <input type="text" placeholder="Fax" className="Frt__inputter" />
+          <div id="Fft__TelGsmFax">
+            <div id="Fft__margbottsmaltext"className="Fft__body">
+              <img className="Fft__infoicon" src={info} alt="info" />
+              <span className="Fft__smalltext">
+                De publicatie van 1 telefoonnummer is een <span className="darker">   vereiste </span> van FOD Economie
+              </span>
+            </div>
+            <div className="Frt__inputWrapper Fft__inputWrapper">
+              <img src={Gsm} alt="icon" className="Fft__icon1" />
+              <input type="text" placeholder="Mobiele telefoon" className="Frt__inputter" />
+            </div>
+            <div className="Frt__inputWrapper Fft__inputWrapper Fft__inputWrapper">
+              <img src={Tel} alt="icon" className="Fft__icon1" />
+              <input type="text" placeholder="Telefoon" className="Frt__inputter" />
+            </div>
+            <div id="Fft__Faxicon" className="Frt__inputWrapper Fft__inputWrapper">
+              <img src={Fax} alt="icon" className="Fft__icon1" />
+              <input type="text" placeholder="Fax" className="Frt__inputter" />
+            </div>
           </div>
           <div id="Fft__textHandel">
-            <div className="Fft__body">
+            <div className="watbiedje  Fft__body">
               Handel je met bedrijven of consumenten?
             </div>
             <div id="Fft__selectHandel">
@@ -101,21 +103,22 @@ function fifth() {
                 <option value="optie3">optie3</option>
                 <option value="optie4">optie4</option>
               </select>
+          </div>
+          <div className="Fft__WatBiedJe" >
+            <div  className="watbiedje Fft__body">
+              Wat bied je aan?
+            </div>
+
+            <select id="Fft__kiezen2" className="Fft__kiezen">
+              <option >Gelieve een optie te kiezen</option>
+              <option value="optie1">optie1</option>
+              <option value="optie2">optie2</option>
+              <option value="optie3">optie3</option>
+              <option value="optie4">optie4</option>
+            </select>
             </div>
           </div>
-          <div id="Fft__body2" className="Fft__body">
-            Wat bied je aan?
-          </div>
-
-          <select id="Fft__kiezen2" className="Fft__kiezen">
-            <option >Gelieve een optie te kiezen</option>
-            <option value="optie1">optie1</option>
-            <option value="optie2">optie2</option>
-            <option value="optie3">optie3</option>
-            <option value="optie4">optie4</option>
-          </select>
-
-          <div Id="Fft__btnplaatser" className="Frt__orangebtnWrapper">
+          <div Id="Fft__btnplaatser">
             <div className="Frt__orangebtn">
               <Link to="number2" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Vorige"} /></Link>
               <Link to="number4" spy={true} smooth={true} offset={-0} duration={500} ><OrangeBtn text={"Volgende"} /></Link>
@@ -126,6 +129,7 @@ function fifth() {
 
       </div>
 
+      Jouw onderneming wordt nu gevonden op alle activiteiten die je aanvult.
 
     </div>
   )

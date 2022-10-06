@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Combo&family=Heebo:wght@100;200;300;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-/* .snapper {
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap'); /* .snapper {
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
@@ -797,69 +798,42 @@
 .Fft__body {
   color: black;
   font-size: 12px;
-  width: 560px;
+  width: 385px;
   text-align: left;
-  margin: 15px 0px 0px px;
 }
 .Fft__formContainer {
   display: grid;
-  grid-template-columns: 370px 370px;
-  grid-template-rows: 30px 30px 30px 10px 30px 30px 30px 30px 30px 30px 30px  ;
+  grid-template-columns: 370px 540px;
+  grid-template-rows: 100px 110px 110px;
   margin: -10px 30px 20px 70px;
-  gap: 10px;
+  gap: 20px;
   width: 420px;
-  /* background: lime; */
 }
-
-#Fft__maatNaam {
+.watbiedje {
+  margin-top: 10px;
+}
+#Fft__MaatNaam {
   grid-column: 1 /2;
   grid-row: 1 /2;
 }
-#Fft__commNaam {
+
+.Fft__icon {
+  width: 30px;
+  margin: 2px 15px 2px 2px;
+}
+.Fft__icon1 {
+  width: 20px;
+  margin: 2px 15px 2px 8px;
+}
+#Fft__TelGsmFax {
   grid-column: 1 /2;
   grid-row: 2 /3;
 }
 
-#Fft__Mail {
+#Fft__textHandel {
   grid-column: 1 /2;
   grid-row: 3 /4;
 }
-
-#Fft__body1 {
-  grid-column: 1 /2;
-  grid-row: 4 /5;
-}
-#Fft__Mobileicon {
-  grid-column: 1 /2;
-  grid-row: 5 /6;
-}
-
-#Fft__Phoneicon {
-  grid-column: 1 /2;
-  grid-row: 6 /7;
-}
-
-#Fft__Faxicon {
-  grid-column: 1 /2;
-  grid-row: 7 /8;
-}
-
-#Fft__textHandel {
-  grid-column: 1 /2;
-  grid-row: 8 /9;
-}
-#Fft__selectHandel {
-  grid-column: 1 /2;
-  grid-row: 10 /11;
-}#Fft__body2 {
-  grid-column: 1 /2;
-  grid-row: 11 /12;
-}
-#Fft__kiezen2 {
-  grid-column: 1 /2;
-  grid-row: 12 /13;
-}
-
 
 .Fft__infoicon {
   width: 6px;
@@ -868,6 +842,13 @@
 .Fft__smalltext {
   font-size: 8px;
 }
+#Fft__margbottsmaltext {
+  margin: 0px 0px 5px 0px;
+}
+.Fft__inputWrapper {
+  margin-bottom: 5px;
+  height: 30px;
+}
 .Fft__kiezen {
   border: black solid 1px;
   border-radius: 3px;
@@ -875,7 +856,10 @@
   height: 30px;
 }
 #Fft__btnplaatser {
-  grid-column: 2 /3;
-  grid-row: 4 /5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: -30px;
+  grid-column: 2 /2;
+  grid-row: 3 /4;
 }
-
